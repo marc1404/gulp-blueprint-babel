@@ -34,7 +34,7 @@ babel(); // gulp task registered with default options
   
 ## Options
 You can pass an options object.
-- ```name``` (*string*, default: ```'sass'```): The gulp task name
+- ```task``` (*string*, default: ```'js'```): The gulp task name
 - ```dependencies``` (*string|array*, default: ```['clean']```): The gulp task dependencies
 - ```input``` (*string|array*, default: ```'app.js'```): JS input file
 - ```browserify``` (*object*, default: ```{ debug: true, baseDir: 'app/client' }```): Options for [browserify](https://www.npmjs.com/package/browserify)
