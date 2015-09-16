@@ -4,7 +4,7 @@
   "description": "Gulp helper to compile, annotate and minify ES6 to ES5 using Browserify and Babel.",
   "main": "lib/gulp-blueprint-babel.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --harmony --harmony_arrow_functions node_modules/istanbul/lib/cli.js cover --hook-run-in-context --report lcovonly node_modules/mocha/bin/_mocha"
   },
   "repository": {
     "type": "git",
