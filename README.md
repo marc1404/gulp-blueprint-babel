@@ -52,3 +52,5 @@ $ mocha
 
 ## License
 [MIT](https://github.com/marc1404/gulp-blueprint-babel/blob/master/LICENSE)
+
+test
