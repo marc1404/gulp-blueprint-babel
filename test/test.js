@@ -8,10 +8,10 @@ var clean = sinon.spy();
 gulp.task('clean', clean);
 babel();
 
-describe('when running the babel task', function(){
+describe('when running the js task', function(){
 
   it('should complete without an error', function(){
-    gulp.start('babel');
+    gulp.start('js');
   });
 
   it('should have called clean() exactly once', function(){
