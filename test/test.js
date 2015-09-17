@@ -1,3 +1,4 @@
+process.chdir(__dirname);
 require('should');
 
 var gulp = require('gulp');
