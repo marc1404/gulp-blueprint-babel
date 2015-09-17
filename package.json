@@ -1,6 +1,6 @@
 {
   "name": "gulp-blueprint-babel",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Gulp helper to compile, annotate and minify ES6 to ES5 using Browserify and Babel.",
   "main": "lib/gulp-blueprint-babel.js",
   "scripts": {
