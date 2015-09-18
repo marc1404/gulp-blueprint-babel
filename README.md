@@ -43,7 +43,7 @@ You can pass an options object.
 - ```output``` (*string*, default: ```'app.min.js'```): Output file name
 - ```dest``` (*string*, default: ```'public'```): Destination of the compiled, annotated and minified JavaScript bundle
 
-You should at lest specify: **basedir**, **input**, **output** and **dest** if you do not want to rely on default options.
+You should at least specify: **basedir**, **input**, **output** and **dest** if you do not want to rely on default options.
 
 ## Test
 ```
