@@ -37,10 +37,13 @@ You can pass an options object.
 - ```gulp``` (*object*, default: ```require('gulp')```): Provide a custom gulp instance
 - ```task``` (*string*, default: ```'js'```): The gulp task name
 - ```dependencies``` (*string|array*, default: ```['clean']```): The gulp task dependencies
+- ```basedir``` (*string*, default: ```'app/client'```): Base directory of the input file
 - ```input``` (*string|array*, default: ```'app.js'```): JS input file
 - ```browserify``` (*object*, default: ```{ debug: true, baseDir: 'app/client' }```): Options for [browserify](https://www.npmjs.com/package/browserify)
 - ```output``` (*string*, default: ```'app.min.js'```): Output file name
 - ```dest``` (*string*, default: ```'public'```): Destination of the compiled, annotated and minified JavaScript bundle
+
+You should at lest specify: **basedir**, **input**, **output** and **dest** if you do not want to rely on default options.
 
 ## Test
 ```
